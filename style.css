@@ -34,3 +34,21 @@ html, body {
     background-size: contain;
     margin-bottom: 20px;
 }
+
+.col-md-6 {
+    color: rgb(128, 0, 128);
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.col-md-6 h2 {
+    font-weight: bold;
+}
+
+.col-md-6 hr {
+    border: 3px solid rgb(128, 0, 128);
+    border-radius: 50px;
+}
