@@ -27,7 +27,7 @@ html, body {
 #home {
     background-color: rgb(255, 94, 0);
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(90vh - 70px);
     background-image: url('hackhouston2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -52,3 +52,26 @@ html, body {
     border: 3px solid rgb(128, 0, 128);
     border-radius: 50px;
 }
+
+footer {
+    background-color: rgb(128, 0, 128);
+    padding: 2% 5% 2% 5%;
+    width: 100%;
+}
+
+footer h2, footer h4 {
+    color: rgb(255, 94, 0);
+}
+
+footer p {
+    color: rgb(255, 94, 0);
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+}
+
+.fab {
+    color: rgb(255, 94, 0);
+    font-size: 45px;
+    padding: 25px;
+}
+
