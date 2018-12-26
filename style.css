@@ -24,6 +24,12 @@ html, body {
     font-weight: bold;
 }
 
+.navbar-light .navbar-toggler, span.navbar-toggler-icon {
+    color: rgb(128, 0, 128) !important;
+    border-color: rgb(128, 0, 128);
+    border-width: medium;
+}
+
 #home {
     background-color: rgb(255, 94, 0);
     width: 100%;
@@ -78,18 +84,40 @@ html, body {
     border-radius: 50px;
 }
 
+#sponsors {
+    background-color: white;
+}
+
+.col-sm-12 h1{
+    margin-top: 15px;
+    font-size: 80px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    color: rgb(128, 0, 128);
+}
+
+.col-sm-6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col-sm-6 img {
+    max-width: 80%;
+    max-height: 70%;
+}
+
 footer {
-    background-color: rgb(128, 0, 128);
+    background-color: rgb(255, 94, 0);
     padding: 0% 5% 0% 5%;
     width: 100%;
 }
 
 footer h2, footer h4 {
-    color: rgb(255, 94, 0);
+    color: rgb(128, 0, 128);
 }
 
 footer p {
-    color: rgb(255, 94, 0);
+    color: rgb(128, 0, 128);
     font-family: 'Righteous', cursive;
     font-size: 60px;
     margin: 0px;
@@ -97,7 +125,7 @@ footer p {
 }
 
 .fab, .fas {
-    color: rgb(255, 94, 0);
+    color: rgb(128, 0, 128);
     font-size: 35px;
     padding: 5px 25px 5px 25px;
     margin-bottom: 5px;
