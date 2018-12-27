@@ -47,7 +47,6 @@ html, body {
     background-position: center;
     background-size: contain;
     margin-bottom: 20px;
-    margin-top: 70px;
 }
 
 .jumbotron {
@@ -162,3 +161,17 @@ footer p {
     margin-bottom: 5px;
 }
 
+/*
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}
+*/
