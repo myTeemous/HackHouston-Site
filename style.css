@@ -84,6 +84,21 @@ body {
     padding-right: 50px;
 }
 
+#about {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+#tsucsLink {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(128, 0, 128);
+    padding: 5px 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
 /*FAQ styling*/
 
 .col-md-12 h1{
