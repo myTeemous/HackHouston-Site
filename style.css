@@ -1,6 +1,13 @@
-html, body {
+html {
     height: 100%;
     width: 100%;
+    background-color: rgb(255, 94, 0);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
     background-color: rgb(255, 94, 0);
 }
 
@@ -26,7 +33,15 @@ html, body {
     font-size: 18px;
 }
 
-.navbar-nav li a:hover, .navbar-nav li a.active {
+:target::before {
+    content: "";
+    display: block;
+    height: 70px; /* fixed header height*/
+    margin: -0px 0 0; /* negative fixed header height */
+  }
+
+
+  .navbar-nav li a.active {
     background-color: rgb(128, 0, 128);
     color: white !important;
     border-radius: 10px;
@@ -69,9 +84,12 @@ html, body {
     padding-right: 50px;
 }
 
+/*FAQ styling*/
+
 .col-md-12 h1{
     font-size: 80px;
-    font-weight: bolder;
+    font-weight: 900;
+    margin-bottom: 0px;
 }
 
 .col-md-6, .col-md-12 {
@@ -90,7 +108,45 @@ html, body {
 .col-md-12 hr {
     border: 3px solid rgb(128, 0, 128);
     border-radius: 50px;
+    width: 200px;
+    margin-top: 0px;
 }
+
+.col-md-6 a {
+    background-color: rgb(128, 0, 128);
+    border-color: rgb(128, 0, 128);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.col-md-6 #directions {
+    background-color: rgb(128, 0, 128);
+    border-color: rgb(128, 0, 128);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+/*SCHEDULE styling*/
+
+#schedule {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#schedule .col-md-12 hr {
+    border: 3px solid rgb(128, 0, 128);
+    border-radius: 50px;
+    width: 560px;
+    margin-top: 0px;
+}
+
+/*SPONSORS styling*/
 
 #sponsors {
     background-color: white;
@@ -100,7 +156,7 @@ html, body {
     margin-top: 15px;
     font-size: 80px;
     font-family: 'Varela Round', sans-serif;
-    font-weight: bolder;
+    font-weight: 900;
     color: rgb(128, 0, 128);
 }
 
@@ -136,6 +192,8 @@ html, body {
     padding-right: 50px;
 }
 
+/*FOOTER styling*/
+
 footer {
     background-color: rgb(255, 94, 0);
     padding: 0% 5% 0% 5%;
@@ -161,23 +219,3 @@ footer p {
     margin-bottom: 5px;
 }
 
-/*
-@media (max-width: 767px) {
-    .navbar-fixed-top {
-        position: relative;
-        top: auto;
-    }
-    .navbar-collapse {
-        max-height: none;
-    }
-    body {
-        margin: 0;
-    }
-}
-
-section:before {
-    height: 54px;
-    content: "";
-    display:block;
-}
-*/

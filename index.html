@@ -10,10 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <title>Hello, world!</title>
+    <title>HackHouston 2019</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" id="myScrollspy">
       <div class="container">
         <a class="navbar-brand" href="#">TSUCS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,16 +25,16 @@
                 <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
+                <a class="nav-link" href="#FAQ">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Schedule</a>
+                <a class="nav-link" href="#schedule">Schedule</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sponsors</a>
+                <a class="nav-link" href="#sponsors">Sponsors</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -43,10 +43,9 @@
     <section id="home"></section>
     <div class="jumbotron jumbotron-fluid text-center">
         <h1 class="display-6">March 13-14, 2019</h1>
-        <a class="btn btn-primary btn-lg" href="#" role="button">REGISTER</a>
-        <a class="btn btn-primary btn-lg" href="#" role="button">VOLUNTEER</a>
+        <a class="btn btn-primary btn-lg" target="_blank" href="#" role="button">REGISTER</a>
     </div>
-    <div class="padding">
+    <div class="padding" id="FAQ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -55,15 +54,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-left">
                     <h2>WHAT IS A HACKATHON?</h2>
                     <p class="lead">
                         A hackathon is where you turn your crazy ideas into real stuff. 
-                        Hundreds of hackers from across Texas will gather and build something they're passionate about. 
+                        Hundreds of hackers will gather and build something they're passionate about. 
                         You take care of building. We'll take care of you.
                     </p>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-left">
                     <h2>HOW MUCH DOES IT COST?</h2>
                     <p class="lead">
                         HackHouston is free for all admitted participants. 
@@ -72,22 +71,82 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-left">
                     <h2>WHAT IF I DON'T HAVE A TEAM?</h2>
                     <p class="lead">
-                        Hackathons are all about teamwork. 
+                        Participants are encouraged to work in teams, however, it is not mandatory.
                         If you don’t have a teammate, we’ll hold a team-formation workshop where you can meet your new best friend. 
                         Also, 4 people per team is the limit.
                     </p>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-left">
                     <h2>WHO CAN ATTEND?</h2>
                     <p class="lead">
-                        HackHouston is open to all majors. 
-                        Whether you’re a budding ethnic studies, cinema, or computer science major, we want you to be here. 
-                        Be prepared to learn, brainstorm, and build amazing software/hardware.
+                        Anyone! HackHouston is open to all backgrounds and skill levels. 
+                        You must be 18 years of age or older by the date of HackHouston.
                     </p>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h2>WHAT SHOULD I BRING?</h2>
+                    <p class="lead">
+                        A laptop, charger, and photo ID. You may also bring your own hardware. If you plan to stay 
+                        over night we encourage you to bring sleeping gear and toiletries.
+                    </p>
+                </div>
+                <div class="col-md-6 text-left">
+                    <h2>TRAVEL REIMBURSEMENTS?</h2>
+                    <p class="lead">
+                        Unfortunately there will be no travel reimbursements.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h2>WHAT IF I DON'T KNOW HOW TO CODE?</h2>
+                    <p class="lead">
+                        That's OK. We will have mentors there to assist you with any
+                        problems you may and provide guidance as you work on your project.
+                    </p>
+                </div>
+                <div class="col-md-6 text-left">
+                    <h2>WHEN AND WHERE?</h2>
+                    <p class="lead">
+                        HackHouston 2019 will be located at Texas Southern University in 
+                        the recreation center. <br>
+                        <a id="directions" target="_blank" href="https://www.google.com/maps/place/TSU+Recreational+Center/@29.7221222,-95.3639098,15z/data=!4m5!3m4!1s0x0:0x4bbdd44642feeff0!8m2!3d29.7221222!4d-95.3639098">Click here for directions</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h2>WOULD YOU LIKE TO BE A VOLUNTEER?</h2>
+                    <p class="lead">
+                        Volunteers will help with serving and handling food, setting up equipment for the event, 
+                        cleaning up after the event, and other similar tasks. If you are interested click the link below.                            
+                    </p>
+                    <a class="btn btn-primary btn-lg" target="_blank" href="#" role="button">VOLUNTEER</a>
+                </div>
+                <div class="col-md-6 text-left">
+                    <h2>WOULD YOU LIKE TO BE A MENTOR?</h2>
+                    <p class="lead">
+                        Mentors will attempt to help participants with any problems they may have with their 
+                        project and help provide guidance. If you are interested click the link below.
+                    </p>
+                    <a class="btn btn-primary btn-lg" target="_blank" href="#" role="button">MENTOR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="schedule">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>SCHEDULE</h1>
+                <hr>
+                <p class="lead">
+                    A detailed schedule will be announced 2 weeks prior
+                </p>
             </div>
         </div>
     </div>
@@ -97,59 +156,43 @@
                 <h1>SPONSORS</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-sm-6 text-center">
-                <a href="#">
+                <a href="https://www.microsoft.com/en-us/" target="_blank">
                     <img class="sponsorImg" src="./images/microsoft_PNG20.png" alt="Microsoft">
                 </a>
             </div>
-            <div class="col-sm-6 text-center">
-                <a href="#">
-                    <img class="sponsorImg" src="./images/roku-inc-logo.png" alt="Roku">
-                </a>
-            </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-sm-6 text-center">
-                <a href="#">
+                <a href="https://www.cpanel.net/" target="_blank">
                     <img class="sponsorImg" src="./images/cpanel.png" alt="Cpanel">
                 </a>
             </div>
-            <div class="col-sm-6 text-center">
-                <a href="#">
-                    <img class="sponsorImg" src="./images/GitHub-Logo.png" alt="GitHub">
-                </a>
-            </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-sm-6 text-center">
-                <a href="#">
-                    <img class="sponsorImg" src="./images/google.png" alt="Google">
-                </a>
-            </div>
-            <div class="col-sm-6 text-center">
-                <a href="#">
-                    <img class="sponsorImg" src="./images/mlh-logo-color.png" alt="Major League Hacking">
+                <a href="https://www.roku.com/" target="_blank">
+                    <img class="sponsorImg" src="./images/roku-inc-logo.png" alt="Roku">
                 </a>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 text-center">
                 <p>Interested in sponsoring us?</p>
-                <a class="btn btn-primary btn-md" id="myButton" href="#" role="button">CLICK HERE</a>
-                <p>Send us an email: <a href="#">k.ratliff3008@gmail.com</a></p>
+                <a class="btn btn-primary btn-md" id="myButton" target="_blank" href="./link-files/Sponsorship Packet_TSUCS 2019.pdf" role="button">CLICK HERE</a>
+                <p>Send us an email: <a href="mailto:hackhouston1@gmail.com">hackhouston1@gmail.com</a></p>
             </div>
         </div>
     </div>
-    <footer class="container-fluid text-center">
+    <footer class="container-fluid text-center" id="contact">
         <div class="row">
             <div class="col-md-12">
                 <p>TSUCS</p>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
-                <h4>Email: <a href="mailto:k.ratliff3008@gmail.com">k.ratliff3008@gmail.com</a></h4>
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </footer>
