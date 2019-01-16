@@ -1,0 +1,236 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 94, 0);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
+    background-color: rgb(255, 94, 0);
+}
+
+.navbar{
+    background-color: rgb(255, 94, 0) !important;
+    padding: 0px;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Righteous', cursive;
+    color: rgb(128, 0, 128) !important;
+    font-size: 40px;
+}
+
+.navbar-nav li {
+    padding-right: 25px;
+}
+
+.navbar-nav li a {
+    color: rgb(128, 0, 128) !important;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: 70px; /* fixed header height*/
+    margin: -0px 0 0; /* negative fixed header height */
+  }
+
+
+  .navbar-nav li a.active {
+    background-color: rgb(128, 0, 128);
+    color: white !important;
+    border-radius: 10px;
+}
+
+.navbar-light .navbar-toggler, span.navbar-toggler-icon {
+    color: rgb(128, 0, 128) !important;
+    border-color: rgb(128, 0, 128);
+    border-width: medium;
+}
+
+#home {
+    background-color: rgb(255, 94, 0);
+    width: 100%;
+    height: calc(90vh - 70px);
+    background-image: url('hackhouston2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: rgb(255, 94, 0);
+    padding-top: 0px;
+    color: rgb(128, 0, 128);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.jumbotron a {
+    background-color: rgb(128, 0, 128);
+    border-color: rgb(128, 0, 128);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#about {
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+#tsucsLink {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(128, 0, 128);
+    padding: 5px 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+/*FAQ styling*/
+
+.col-md-12 h1{
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.col-md-6, .col-md-12 {
+    color: rgb(128, 0, 128);
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.col-md-6 h2 {
+    font-weight: bold;
+}
+
+.col-md-12 hr {
+    border: 3px solid rgb(128, 0, 128);
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 0px;
+}
+
+.col-md-6 a {
+    background-color: rgb(128, 0, 128);
+    border-color: rgb(128, 0, 128);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.col-md-6 #directions {
+    background-color: rgb(128, 0, 128);
+    border-color: rgb(128, 0, 128);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+/*SCHEDULE styling*/
+
+#schedule {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#schedule .col-md-12 hr {
+    border: 3px solid rgb(128, 0, 128);
+    border-radius: 50px;
+    width: 560px;
+    margin-top: 0px;
+}
+
+/*SPONSORS styling*/
+
+#sponsors {
+    background-color: white;
+}
+
+.col-sm-12 h1{
+    margin-top: 15px;
+    font-size: 80px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 900;
+    color: rgb(128, 0, 128);
+}
+
+.col-sm-6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.col-sm-6 img {
+    max-width: 80%;
+    max-height: 70%;
+}
+
+.col-sm-12 p {
+    color: rgb(128, 0, 128);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-sm-12 #myButton {
+    background-color: rgb(128, 0, 128);
+    border-color: rgb(128, 0, 128);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*FOOTER styling*/
+
+footer {
+    background-color: rgb(255, 94, 0);
+    padding: 0% 5% 0% 5%;
+    width: 100%;
+}
+
+footer h2, footer h4 {
+    color: rgb(128, 0, 128);
+}
+
+footer p {
+    color: rgb(128, 0, 128);
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    margin: 0px;
+    line-height: 1;
+}
+
+.fab, .fas {
+    color: rgb(128, 0, 128);
+    font-size: 35px;
+    padding: 5px 25px 5px 25px;
+    margin-bottom: 5px;
+}
+
