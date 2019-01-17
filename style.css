@@ -57,7 +57,7 @@ body {
     background-color: rgb(255, 94, 0);
     width: 100%;
     height: calc(90vh - 70px);
-    background-image: url('hackhouston2.png');
+    background-image: url('./images/hackhouston2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
